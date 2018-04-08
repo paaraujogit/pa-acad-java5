@@ -1,3 +1,3 @@
  remote: https://github.com/paaraujogit/pa-acad-java5.git
- branch: cristiano
-package: pa.cristiano
+ branch: andre
+package: pa.andre
