@@ -2,10 +2,8 @@ package pa.calc;
 
 public class OperSub implements ItfOper {
 
-@Override
-
-public double oper(double op1, double op2) {
-
-return op1-op2;
-}
+  @Override
+  public double oper(double op1, double op2) {
+    return op1-op2;
+  }
 }
