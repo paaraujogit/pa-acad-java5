@@ -18,6 +18,8 @@ public class Calculadora {
 		double res_NA = op_NA.oper(3, 2);
 		System.out.println("Resultado NA: " +  res_NA);
 		
+		
+		//Operacao de dividir por Cristiano:
 		OperDiv opD = new OperDiv();
 		double resDiv = opD.oper(10, 0);
 		System.out.println("Resultado NA: " +  resDiv);
