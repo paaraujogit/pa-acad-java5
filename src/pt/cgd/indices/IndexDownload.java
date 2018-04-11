@@ -5,8 +5,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.HashMap;
-import org.json.simple.*;
-import org.json.simple.parser.*;
+//import org.json.simple.*;
+//import org.json.simple.parser.*;
 
 public class IndexDownload {
 
@@ -31,10 +31,10 @@ public class IndexDownload {
 //        JsonElement jelement = new JsonParser().parse(sJSON);
 //        JsonArray jobject = jelement.getAsJsonArray();
         
-        JSONParser parser = new JSONParser();
-
-        JSONObject obj = (JSONObject) parser.parse(sJSON);
-        JSONObject obj2 = (JSONObject) obj.get(0);
+//        JSONParser parser = new JSONParser();
+//
+//        JSONObject obj = (JSONObject) parser.parse(sJSON);
+//        JSONObject obj2 = (JSONObject) obj.get(0);
 //        JSONArray array = (JSONArray) obj.get("Time Series (1min)");
         
         HashMap hm ;
