@@ -17,6 +17,10 @@ public class Calculadora {
 		Oper_NA op_NA = new Oper_NA();
 		double res_NA = op_NA.oper(3, 2);
 		System.out.println("Resultado NA: " +  res_NA);
+		
+		OperDiv opD = new OperDiv();
+		double resDiv = opD.oper(10, 0);
+		System.out.println("Resultado NA: " +  resDiv);
 
 		// ToDo - All Students Must Implement one Operation
 		// - Oper0X - Name
