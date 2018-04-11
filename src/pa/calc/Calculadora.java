@@ -21,6 +21,11 @@ public class Calculadora {
 		OperDiv opD = new OperDiv();
 		double resDiv = opD.oper(10, 0);
 		System.out.println("Resultado NA: " +  resDiv);
+		
+		
+		Calculando ssr = new Calculando();
+		double ssrres = ssr.oper(2, 2);
+		System.out.println("Calculando o resultado 2,2=" +  ssrres);
 
 		// ToDo - All Students Must Implement one Operation
 		// - Oper0X - Name
